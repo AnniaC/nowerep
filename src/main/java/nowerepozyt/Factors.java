@@ -20,14 +20,14 @@ public class Factors {
 
         Factors f = (Factors) obj;
 
-        if(this.x == f.x && this.y == f.y)
+        if (this.x == f.x && this.y == f.y)
             return true;
 
         return true;
 
     }
 
-    public void print () {
+    public void print() {
         System.out.print(getX() + " " + getY());
     }
 

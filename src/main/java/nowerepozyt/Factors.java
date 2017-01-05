@@ -7,6 +7,26 @@ public class Factors {
     int x;
     int y;
 
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+
+        if (obj == null)
+            return false;
+
+        if (!(obj instanceof Factors))
+            return false;
+
+        Factors f = (Factors) obj;
+
+        if(this.x == f.x && this.y == f.y)
+            return true;
+
+        return true;
+
+    }
+
     public void print () {
         System.out.print(getX() + " " + getY());
     }

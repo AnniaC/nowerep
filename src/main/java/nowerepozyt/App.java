@@ -11,8 +11,8 @@ public class App
     public static void main( String[] args )
     {
 
-        List<Factors> list = Math.getFactors(10);
-
-        list.get(0).print();
+//        List<Factors> list = Math.getFactors(10);
+//
+//        list.get(2).print();
     }
 }

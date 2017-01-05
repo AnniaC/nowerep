@@ -1,5 +1,7 @@
 package nowerepozyt;
 
+import java.util.List;
+
 /**
  * Hello world!
  *
@@ -8,6 +10,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+
+        List<Factors> list = Math.getFactors(10);
+        list.get()
     }
 }

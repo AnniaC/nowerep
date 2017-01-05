@@ -12,6 +12,7 @@ public class App
     {
 
         List<Factors> list = Math.getFactors(10);
-        list.get()
+
+        list.get(0).print();
     }
 }

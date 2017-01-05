@@ -17,6 +17,8 @@ public class Math {
                 y=number/limit;
                 limit++;
                 list.add(new Factors(x,y));
+            } else {
+                limit++;
             }
         }
         return list;

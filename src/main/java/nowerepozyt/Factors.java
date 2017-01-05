@@ -7,7 +7,9 @@ public class Factors {
     int x;
     int y;
 
-
+    public void print () {
+        System.out.print(getX() + " " + getY());
+    }
 
 
     public Factors(int x, int y) {

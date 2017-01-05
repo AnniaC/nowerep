@@ -7,6 +7,9 @@ public class Factors {
     int x;
     int y;
 
+
+
+
     public Factors(int x, int y) {
         this.x = x;
         this.y = y;
